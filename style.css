@@ -1,5 +1,5 @@
 .header{
-    background-color: rgb(228, 241, 250);
+    background-color: rgb(247, 247, 247);
 
 }
 nav{
@@ -23,4 +23,51 @@ nav li{
 nav a{
     text-decoration: none;
     color: black;
+}
+
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner .profile-pic{
+    width: 600px;
+}
+.banner-content{
+    max-width: 500px;
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+.banner-title{
+    
+    font-size: 65px;
+    font-weight: 800;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    
+}
+.banner-p{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.button-c{
+    padding: auto;
+    margin-right: 15px;
+
+}
+.text-primary{
+    color: #a4e2ff;
+}
+.btn-primary{
+    border-radius: 5px;
+    background: #8bbaff;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
 }
